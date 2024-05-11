@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHO THAT POKEMON</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="background"></div>
+  <h1>WHO THAT POKEMON GAME</h1>
+  <button id="startButton">Start Game</button>
+  <div id="gameContainer" style="display:none;">
+    <div id="imageContainer">
+      <img id="personImage" src="" alt="Person Photo">
+    </div>
+    <div id="guessContainer">
+      <input type="text" id="guessInput" placeholder="Enter your guess">
+      <button onclick="checkGuess()">Submit</button>
+      <p id="resultMessage"></p>
+    </div>
+  </div>
+  <button id="restartButton" onclick="restartGame()" style="display: none;">Restart Game</button>
+  <div id="correctAnswerContainer" style="display: none;">
+    <img id="correctPersonImage" src="" alt="Correct Person Photo">
+    <p id="correctPersonName"></p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

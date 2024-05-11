@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg');
+    background-size: 100%;
+  }
+
+#startButton {
+  display: block;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 20px auto; /* Center the button horizontally */
+}
+
+#restartButton {
+  display: block;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 20px auto; /* Center the button horizontally */
+}
+
+#gameContainer {
+  margin-top: 20px;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#personImage {
+  max-width: 100%;
+  max-height: 400px;
+  margin-top: 20px;
+}
+
+#guessContainer {
+  margin-top: 20px;
+}
+
+#guessInput {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#correctPersonImage {
+  width: 200px; 
+  height: auto; 
+}
+
+#resultMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
